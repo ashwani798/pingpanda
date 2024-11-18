@@ -19,7 +19,8 @@
     ],
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "target": "ES2017"
   },
   "include": [
     "next-env.d.ts",
@@ -27,6 +28,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "prisma-extensions.d.ts"
+    // "src/app/(auth)/sign-in/[[...rest]]/page.jsx"
   ],
   "exclude": ["node_modules"]
 }
